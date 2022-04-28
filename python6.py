@@ -11,7 +11,7 @@ while True:
     else:
         menu = input("메뉴 추가 :")
         #추가되는 메뉴가 저장된 메뉴의 부분집합인지의 여부에 따라 다르게 출력하고 싶었으나 구현 못 함. 
-        if set(menu) <= set(list) == True:
+        if set(menu).issubset(set(list)) == True:
             print("이미 있는 메뉴예요! 다른 메뉴를 입력해주세요.")
             print("현재 메뉴 수 =", len(list))
         else :
