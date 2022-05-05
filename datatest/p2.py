@@ -1,6 +1,3 @@
-from this import d
-
-
 name = input("What is your name?")
 height = float(input("What is your height(cm)?"))
 weight = float(input("What is your weight(kg)?"))
